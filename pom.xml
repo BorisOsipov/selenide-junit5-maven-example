@@ -12,7 +12,7 @@
     <dependency>
       <groupId>com.codeborne</groupId>
       <artifactId>selenide</artifactId>
-      <version>5.0.1</version>
+      <version>5.23.2</version>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -43,10 +43,8 @@
           <systemPropertyVariables>
             <selenide.browser>chrome</selenide.browser>
             <selenide.timeout>4000</selenide.timeout>
-            <!--<selenide.baseUrl>http://localhost:8080/gui</selenide.baseUrl>-->
             <selenide.startMaximized>false</selenide.startMaximized>
             <selenide.fastSetValue>true</selenide.fastSetValue>
-            <!--<selenide.browserSize>1920x1080</selenide.browserSize>-->
             <googleid.username>user</googleid.username>
             <googleid.password>pwd123</googleid.password>
           </systemPropertyVariables>
